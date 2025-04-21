@@ -6,14 +6,12 @@ import {
   NavigationMenuItem,
   NavigationMenuList,
   NavigationMenu,
-} from "@/components/ui/navigation-menu";
-import { Button } from "@/components/ui/button";
-import {
+  Button,
   MobileNavbarTrigger,
   MobileNavbarClose,
   MobileNavbarContent,
   MobileNavbar,
-} from "@/components/ui/mobile-navbar";
+} from "@/components/ui";
 
 export function Header() {
   return (

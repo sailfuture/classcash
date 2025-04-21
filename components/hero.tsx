@@ -1,8 +1,7 @@
 "use client";
 
-import { Badge } from "@/components/ui/badge";
+import { Badge, Button } from "@/components/ui";
 import { Icon } from "@iconify/react";
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import placeholder from "@/public/images/placeholder.png";
 
