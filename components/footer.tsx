@@ -5,7 +5,7 @@ import { Icon } from "@iconify/react";
 export function Footer() {
   return (
     <footer className="py-10">
-      <div className="container grid grid-cols-2 sm:grid-cols-3 gap-10 md:grid-cols-5">
+      <div className="mx-auto px-4 max-w-6xl grid grid-cols-2 sm:grid-cols-3 gap-10 md:grid-cols-5">
         <div className="flex flex-col gap-5">
           <div className="flex items-center gap-2">
             <Icon

@@ -8,7 +8,7 @@ import placeholder from "@/public/images/placeholder.png";
 export function Features() {
   return (
     <section className="relative py-20">
-      <div className="container flex flex-col items-start gap-6">
+      <div className="mx-auto px-4 max-w-6xl flex flex-col items-start gap-6">
         <div className="flex flex-col gap-3 items-start">
           <Badge className="gap-1.5 bg-primary/10 text-primary">Features</Badge>
           <h2 className="font-heading font-bold text-3xl sm:text-4xl max-w-2xl text-balance">

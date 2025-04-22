@@ -55,9 +55,7 @@
 }
 
 @layer utilities {
-  .container {
-    @apply mx-auto px-4 max-w-6xl;
-  }
+  /* Removed custom .container class */
 
   .fade-in {
     --tw-enter-opacity: 0;

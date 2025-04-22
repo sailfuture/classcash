@@ -16,7 +16,7 @@ import {
 export function Header() {
   return (
     <header className="py-4 shadow-sm border-b">
-      <div className="container flex items-center justify-between gap-10">
+      <div className="mx-auto px-4 max-w-6xl flex items-center justify-between gap-10">
         <div className="flex-1">
           <div className="flex items-center gap-2">
             <Icon
@@ -81,7 +81,7 @@ export function Header() {
               <Icon icon="lucide:x" className="size-6" />
             </MobileNavbarClose>
             <MobileNavbarContent className="backdrop-blur-2xl absolute inset-0 top-[60px] h-[calc(100vh-60px)]">
-              <div className="container py-6">
+              <div className="mx-auto px-4 max-w-6xl py-6">
                 <NavigationMenu className="w-full max-w-none items-stretch flex-col">
                   <NavigationMenuList className="flex flex-col gap-1 w-full items-start space-x-0">
                     <NavigationMenuItem className="w-full">

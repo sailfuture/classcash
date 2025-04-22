@@ -30,7 +30,7 @@ export function Hero() {
         </svg>
         <div className="absolute inset-0 size-full bg-radial-[at_50%_50%] from-transparent via-background/5 to-background via-70% to-95%" />
       </div>
-      <div className="container flex flex-col gap-6 items-center">
+      <div className="mx-auto px-4 max-w-6xl flex flex-col gap-6 items-center">
         <Badge className="bg-primary/10 text-primary gap-2 pl-0.5">
           <Badge className="text-xs font-medium rounded-sm">Popular</Badge>
           Featured

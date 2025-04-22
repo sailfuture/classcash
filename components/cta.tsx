@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 export function Cta() {
   return (
     <section className="relative py-36">
-      <div className="container flex flex-col gap-6 items-center">
+      <div className="mx-auto px-4 max-w-6xl flex flex-col gap-6 items-center">
         <h2 className="font-heading font-bold text-3xl sm:text-4xl max-w-2xl text-balance text-center">
           Transform Your Classroom Today
         </h2>
